@@ -1,5 +1,36 @@
+body{
+    font-family: 'Poller One', cursive;
+    color: #e2e326;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+
+}
 .character-window{
     float: left;
     padding: 5px;
-    background-color: aquamarine;
+    border-width: 3px;
+    border: solid #274fdf;
+    margin: 3px;
+    width: 130px;
+    height: 200px;
+    background-color: #98a7db;
+}
+
+.character-image{
+    width: 70px;
+}
+
+#attacker{
+    border-color: green;
+    background-color: lightgreen;
+}
+
+#defender{
+    border-color: red;
+    background-color: pink;
+}
+
+#attack-row #defend-row #options-row{
+    height: 180px;
 }

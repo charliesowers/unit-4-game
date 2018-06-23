@@ -1,61 +1,46 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>About</title>
+        <title>Star Wars RPG</title>
         <link rel="icon" href="assets/images/logo.png">
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
         <!-- css link: -->
         <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Poller+One" rel="stylesheet">
     </head>
 
     <body>
 
-        <h1>Star Wars RPG!</h1>
+        <h1>STAR WARS RPG!</h1>
 
-        <div id = "attack-row">
-            <h2>Attacker:</h2>
-            <br>
-        </div>
+        <div class = "container">
 
-        <br><br><br><br>
-
-        <div id = "options-row">
-            <div class = "character-window" hp = "140" base-attack = "10" attack = "10" counter = "15">
-                Kit Fisto
-                <br>
-                <div class = "hp">140</div>
+            <div id = "attack-row" class = "row">
+                <h2>ATTACKER:</h2>
             </div>
-            <div class = "character-window" hp = "100" base-attack = "16" attack = "16" counter = "25">
-                Ventress
-                <br>
-                <div class = "hp">100</div>
-            </div>
-            <div class = "character-window" hp = "160" base-attack = "7" attack = "7" counter = "10">
-                Pong Krell
-                <br>
-                <div class = "hp">160</div>
-            </div>
-            <div class = "character-window" hp = "80" base-attack = "20" attack = "20" counter = "30">
-                Ashoka
-                <br>
-                <div class = "hp">80</div>
-            </div>
-        </div>
 
-        <br><br><br><br>
-
-        <div id = "defend-row">
-            <h2>Defender::</h2>
-            <br>
             
+
+            <div id = "defend-row" class = "row">
+                <h2>DEFENDER:</h2>
+                
+            </div>
+
+            <div id = "button-row" class = "row">
+
+                <button id = "attack-button" class = "btn btn-danger">ATTACK!</button>
+
+            </div>
+
+            <div id = "options-row" class = "row">
+                
+            </div>
+
         </div>
-
-        <br><br><br><br>
-
-        <button id = "attack-button">Attack!</button>
 
         
         <script src="./assets/javascript/game.js"></script>
