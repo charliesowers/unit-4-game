@@ -55,7 +55,7 @@ $(document).ready(function() {
 
     function startGame(){
         createCharacter("KIT FISTO", 140, 15, 15, "./assets/images/Kit_Fisto.png");
-        createCharacter("ASAJJ VENTRESS", 100, 20, 25, "./assets/images/Asajj_Ventress.png");
+        createCharacter("VENTRESS", 100, 20, 25, "./assets/images/Asajj_Ventress.png");
         createCharacter("PONG KRELL", 170, 10, 10, "./assets/images/Pong_Krell.png");
         createCharacter("AHSOKA TANO", 80, 50, 30, "./assets/images/Ahsoka_Tano.png");
 

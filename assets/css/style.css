@@ -12,13 +12,13 @@ body{
     border-width: 3px;
     border: solid #274fdf;
     margin: 3px;
-    width: 130px;
+    width: 170px;
     height: 200px;
     background-color: #98a7db;
 }
 
 .character-image{
-    width: 70px;
+    height: 130px;
 }
 
 #attacker{
